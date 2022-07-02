@@ -4,9 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,11 +20,7 @@
   },
   "homepage": "https://github.com/puniqlet/xetroc-ui#readme",
   "dependencies": {
-    "@storybook/addon-postcss": "^2.0.0",
-    "autoprefixer": "^10.4.7",
-    "lit": "^2.2.7",
-    "postcss-flexbugs-fixes": "^5.0.2",
-    "storybook": "^6.5.9"
+    "lit": "^2.2.7"
   },
   "files": [
     "**/*.js",
@@ -34,16 +28,6 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.18.6",
-    "@mdx-js/react": "^2.1.2",
-    "@storybook/addon-actions": "^6.5.9",
-    "@storybook/addon-essentials": "^6.5.9",
-    "@storybook/addon-interactions": "^6.5.9",
-    "@storybook/addon-links": "^6.5.9",
-    "@storybook/builder-webpack4": "^6.5.9",
-    "@storybook/html": "^6.5.9",
-    "@storybook/manager-webpack4": "^6.5.9",
-    "@storybook/mdx2-csf": "^0.0.3",
-    "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.2.5"
   }
 }
