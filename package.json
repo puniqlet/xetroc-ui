@@ -1,6 +1,6 @@
 {
   "name": "xetroc-ui",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "",
   "scripts": {
@@ -14,7 +14,7 @@
     "xetroc"
   ],
   "author": "puniqlet",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/puniqlet/xetroc-ui/issues"
   },
