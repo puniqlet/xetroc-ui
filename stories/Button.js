@@ -1,6 +1,5 @@
-import '../components/button/index';
-import './button.css';
-
+import '../components/button'
+import './button.css'
 
 export const createButton = ({
   primary = false,
@@ -9,15 +8,15 @@ export const createButton = ({
   label,
   onClick,
 }) => {
-  const btn = document.createElement('x-button');
-  btn.type = 'button';
-  btn.innerText = label;
-  btn.addEventListener('click', onClick);
+  const btn = document.createElement('x-button')
+  btn.type = 'button'
+  btn.innerText = label
+  btn.addEventListener('click', onClick)
 
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  btn.className = ['storybook-button', `storybook-button--${size}`, mode].join(' ');
+  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary'
+  btn.className = ['storybook-button', `storybook-button--${size}`, mode].join(' ')
 
-  btn.style.backgroundColor = backgroundColor;
+  btn.style.backgroundColor = backgroundColor
 
-  return btn;
-};
+  return btn
+}
