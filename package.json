@@ -1,0 +1,28 @@
+{
+  "name": "xetroc-ui",
+  "version": "1.0.4",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puniqlet/xetroc-ui.git"
+  },
+  "keywords": [
+    "xetroc"
+  ],
+  "author": "puniqlet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puniqlet/xetroc-ui/issues"
+  },
+  "homepage": "https://github.com/puniqlet/xetroc-ui#readme",
+  "dependencies": {
+    "lit": "^2.2.7"
+  },
+  "files": [
+    "./components/build/*.js"
+  ]
+}
