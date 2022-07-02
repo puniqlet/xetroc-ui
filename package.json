@@ -1,6 +1,6 @@
 {
   "name": "xetroc-ui",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "",
   "main": "",
   "scripts": {
@@ -23,6 +23,7 @@
     "lit": "^2.2.7"
   },
   "files": [
-    "./components/build/*.js"
+    "**/*.js",
+    "**/*.d.ts"
   ]
 }

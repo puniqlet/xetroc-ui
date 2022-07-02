@@ -23,7 +23,7 @@ let Layout = class Layout extends lit_1.LitElement {
     }
     render() {
         return (0, lit_1.html) `
-      <div>
+      <div class="test-a">
         ${this.height + 5}
         <div>test config</div>
         ${this.config?.isTrue ? 'true' : 'false'}
@@ -39,7 +39,20 @@ let Layout = class Layout extends lit_1.LitElement {
         console.log('this.config', this.config);
     }
 };
-Layout.styles = (0, lit_1.css) ``;
+Layout.styles = (0, lit_1.css) `
+    .test-a {
+      font-size: 60px;
+      color: blue;
+    }
+    .test-b {
+      font-size: 60px;
+      color: blue;
+    }
+    .test-c {
+      font-size: 60px;
+      color: blue;
+    }
+  `;
 __decorate([
     (0, decorators_js_1.property)({
         type: Number,

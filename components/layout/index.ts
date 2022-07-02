@@ -3,7 +3,20 @@ import { customElement, property } from 'lit/decorators.js'
 
 @customElement('x-layout')
 export class Layout extends LitElement {
-  static styles = css``
+  static styles = css`
+    .test-a {
+      font-size: 60px;
+      color: blue;
+    }
+    .test-b {
+      font-size: 60px;
+      color: blue;
+    }
+    .test-c {
+      font-size: 60px;
+      color: blue;
+    }
+  `
 
   @property({
     type: Number,
@@ -24,7 +37,7 @@ export class Layout extends LitElement {
 
   render() {
     return html`
-      <div>
+      <div class="test-a">
         ${this.height + 5}
         <div>test config</div>
         ${this.config?.isTrue ? 'true' : 'false'}
